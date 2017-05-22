@@ -1,30 +1,30 @@
-#Model Architecture and Training Strategy 
+# Model Architecture and Training Strategy 
 
-####1. An appropriate model architecture has been employed
+#### 1. An appropriate model architecture has been employed
 
 My model consists of a convolution neural network with 5x5 filter sizes and depths of 6 (model.py lines 55-57) 
 
 The model includes RELU layers to introduce nonlinearity (code line 55-57), and the data is normalized in the model using a Keras lambda layer (code line 52). 
 
-####2. Attempts to reduce overfitting in the model
+#### 2. Attempts to reduce overfitting in the model
 
 The model contains max pooling layers in order to reduce overfitting (model.py lines 58). 
 
 The model was trained and validated on different data sets to ensure that the model was not overfitting (code line 14). The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track.
 
-####3. Model parameter tuning
+#### 3. Model parameter tuning
 
 The model used an adam optimizer, so the learning rate was not tuned manually (model.py line 64).
 
-####4. Appropriate training data
+#### 4. Appropriate training data
 
 Training data was chosen to keep the vehicle driving on the road. I used a combination of center lane driving, recovering from the left and right sides of the road and reverse laps.
 
 For details about how I created the training data, see the next section. 
 
-###Model Architecture and Training Strategy
+### Model Architecture and Training Strategy
 
-####1. Solution Design Approach
+#### 1. Solution Design Approach
 
 The overall strategy for deriving a model architecture was to drive the car around the track safely.
 
@@ -40,7 +40,7 @@ The final step was to run the simulator to see how well the car was driving arou
 
 At the end of the process, the vehicle is able to drive autonomously around the track without leaving the road.
 
-####2. Final Model Architecture
+#### 2. Final Model Architecture
 
 The final model architecture (model.py lines 52-62) consisted of a convolution neural network with the following layers and layer sizes ...
 
@@ -56,7 +56,7 @@ Then flatten the inputs and dense it to 120 outputs, 84 outputs and finally 1 ou
 
 
 
-####3. Creation of the Training Set & Training Process
+#### 3. Creation of the Training Set & Training Process
 
 To capture good driving behavior, I first recorded two laps on track one using center lane driving. Here is an example image of center lane driving:
 
@@ -64,31 +64,31 @@ To capture good driving behavior, I first recorded two laps on track one using c
 
 
 
-![center_2017_05_05_02_35_07_489](/Users/ScottieYan/CarND/CarND-Behavioral-Cloning-P3/data/IMG/center_2017_05_05_02_35_07_489.jpg)
+![center_2017_05_05_02_35_07_489](https://github.com/ScottieY/CarND-Behavioral-Cloning/tree/master/data/IMG/center_2017_05_05_02_35_07_489.jpg)
 
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to .... These images show what a recovery looks like starting from a curb on the right side
 
-![center_2017_05_05_02_35_09_123](/Users/ScottieYan/CarND/CarND-Behavioral-Cloning-P3/data/IMG/center_2017_05_05_02_35_09_123.jpg)
+![center_2017_05_05_02_35_09_123](https://github.com/ScottieY/CarND-Behavioral-Cloning/tree/master/data/IMGcenter_2017_05_05_02_35_09_123.jpg)
 
-![center_2017_05_05_02_35_09_191](/Users/ScottieYan/CarND/CarND-Behavioral-Cloning-P3/data/IMG/center_2017_05_05_02_35_09_191.jpg)
+![center_2017_05_05_02_35_09_191](https://github.com/ScottieY/CarND-Behavioral-Cloning/tree/master/data/IMG/center_2017_05_05_02_35_09_191.jpg)
 
-![center_2017_05_05_02_35_09_267](/Users/ScottieYan/CarND/CarND-Behavioral-Cloning-P3/data/IMG/center_2017_05_05_02_35_09_267.jpg)
+![center_2017_05_05_02_35_09_267](https://github.com/ScottieY/CarND-Behavioral-Cloning/tree/master/data/IMG/center_2017_05_05_02_35_09_267.jpg)
 
-![center_2017_05_05_02_35_09_339](/Users/ScottieYan/CarND/CarND-Behavioral-Cloning-P3/data/IMG/center_2017_05_05_02_35_09_339.jpg)
+![center_2017_05_05_02_35_09_339](https://github.com/ScottieY/CarND-Behavioral-Cloning/tree/master/data/IMG/center_2017_05_05_02_35_09_339.jpg)
 
-![center_2017_05_05_02_35_09_406](/Users/ScottieYan/CarND/CarND-Behavioral-Cloning-P3/data/IMG/center_2017_05_05_02_35_09_406.jpg)
+![center_2017_05_05_02_35_09_406](https://github.com/ScottieY/CarND-Behavioral-Cloning/tree/master/data/IMG/center_2017_05_05_02_35_09_406.jpg)
 
-![center_2017_05_05_02_35_09_482](/Users/ScottieYan/CarND/CarND-Behavioral-Cloning-P3/data/IMG/center_2017_05_05_02_35_09_482.jpg)
+![center_2017_05_05_02_35_09_482](https://github.com/ScottieY/CarND-Behavioral-Cloning/tree/master/data/IMG/center_2017_05_05_02_35_09_482.jpg)
 
-![center_2017_05_05_02_35_09_550](/Users/ScottieYan/CarND/CarND-Behavioral-Cloning-P3/data/IMG/center_2017_05_05_02_35_09_550.jpg)
+![center_2017_05_05_02_35_09_550](https://github.com/ScottieY/CarND-Behavioral-Cloning/tree/master/data/IMG/center_2017_05_05_02_35_09_550.jpg)
 
-![center_2017_05_05_02_35_09_617](/Users/ScottieYan/CarND/CarND-Behavioral-Cloning-P3/data/IMG/center_2017_05_05_02_35_09_617.jpg)
+![center_2017_05_05_02_35_09_617](https://github.com/ScottieY/CarND-Behavioral-Cloning/tree/master/data/IMG/center_2017_05_05_02_35_09_617.jpg)
 
-![center_2017_05_05_02_35_09_691](/Users/ScottieYan/CarND/CarND-Behavioral-Cloning-P3/data/IMG/center_2017_05_05_02_35_09_691.jpg)
+![center_2017_05_05_02_35_09_691](https://github.com/ScottieY/CarND-Behavioral-Cloning/tree/master/data/IMG/center_2017_05_05_02_35_09_691.jpg)
 
-![center_2017_05_05_02_35_09_758](/Users/ScottieYan/CarND/CarND-Behavioral-Cloning-P3/data/IMG/center_2017_05_05_02_35_09_758.jpg)
+![center_2017_05_05_02_35_09_758](https://github.com/ScottieY/CarND-Behavioral-Cloning/tree/master/data/IMG/center_2017_05_05_02_35_09_758.jpg)
 
-![center_2017_05_05_02_35_09_861](/Users/ScottieYan/CarND/CarND-Behavioral-Cloning-P3/data/IMG/center_2017_05_05_02_35_09_861.jpg)
+![center_2017_05_05_02_35_09_861](https://github.com/ScottieY/CarND-Behavioral-Cloning/tree/master/data/IMG/center_2017_05_05_02_35_09_861.jpg)
 
 
 
