@@ -64,31 +64,31 @@ To capture good driving behavior, I first recorded two laps on track one using c
 
 
 
-![center_2017_05_05_02_35_07_489](https://github.com/ScottieY/CarND-Behavioral-Cloning/tree/master/data/IMG/center_2017_05_05_02_35_07_489.jpg)
+![center_2017_05_05_02_35_07_489](data/IMG/center_2017_05_05_02_35_07_489.jpg)
 
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to .... These images show what a recovery looks like starting from a curb on the right side
 
-![center_2017_05_05_02_35_09_123](https://github.com/ScottieY/CarND-Behavioral-Cloning/tree/master/data/IMGcenter_2017_05_05_02_35_09_123.jpg)
+![center_2017_05_05_02_35_09_123](data/IMGcenter_2017_05_05_02_35_09_123.jpg)
 
-![center_2017_05_05_02_35_09_191](https://github.com/ScottieY/CarND-Behavioral-Cloning/tree/master/data/IMG/center_2017_05_05_02_35_09_191.jpg)
+![center_2017_05_05_02_35_09_191](data/IMG/center_2017_05_05_02_35_09_191.jpg)
 
-![center_2017_05_05_02_35_09_267](https://github.com/ScottieY/CarND-Behavioral-Cloning/tree/master/data/IMG/center_2017_05_05_02_35_09_267.jpg)
+![center_2017_05_05_02_35_09_267](data/IMG/center_2017_05_05_02_35_09_267.jpg)
 
-![center_2017_05_05_02_35_09_339](https://github.com/ScottieY/CarND-Behavioral-Cloning/tree/master/data/IMG/center_2017_05_05_02_35_09_339.jpg)
+![center_2017_05_05_02_35_09_339](data/IMG/center_2017_05_05_02_35_09_339.jpg)
 
-![center_2017_05_05_02_35_09_406](https://github.com/ScottieY/CarND-Behavioral-Cloning/tree/master/data/IMG/center_2017_05_05_02_35_09_406.jpg)
+![center_2017_05_05_02_35_09_406](data/IMG/center_2017_05_05_02_35_09_406.jpg)
 
-![center_2017_05_05_02_35_09_482](https://github.com/ScottieY/CarND-Behavioral-Cloning/tree/master/data/IMG/center_2017_05_05_02_35_09_482.jpg)
+![center_2017_05_05_02_35_09_482](data/IMG/center_2017_05_05_02_35_09_482.jpg)
 
-![center_2017_05_05_02_35_09_550](https://github.com/ScottieY/CarND-Behavioral-Cloning/tree/master/data/IMG/center_2017_05_05_02_35_09_550.jpg)
+![center_2017_05_05_02_35_09_550](data/IMG/center_2017_05_05_02_35_09_550.jpg)
 
-![center_2017_05_05_02_35_09_617](https://github.com/ScottieY/CarND-Behavioral-Cloning/tree/master/data/IMG/center_2017_05_05_02_35_09_617.jpg)
+![center_2017_05_05_02_35_09_617](data/IMG/center_2017_05_05_02_35_09_617.jpg)
 
-![center_2017_05_05_02_35_09_691](https://github.com/ScottieY/CarND-Behavioral-Cloning/tree/master/data/IMG/center_2017_05_05_02_35_09_691.jpg)
+![center_2017_05_05_02_35_09_691](data/IMG/center_2017_05_05_02_35_09_691.jpg)
 
-![center_2017_05_05_02_35_09_758](https://github.com/ScottieY/CarND-Behavioral-Cloning/tree/master/data/IMG/center_2017_05_05_02_35_09_758.jpg)
+![center_2017_05_05_02_35_09_758](data/IMG/center_2017_05_05_02_35_09_758.jpg)
 
-![center_2017_05_05_02_35_09_861](https://github.com/ScottieY/CarND-Behavioral-Cloning/tree/master/data/IMG/center_2017_05_05_02_35_09_861.jpg)
+![center_2017_05_05_02_35_09_861](data/IMG/center_2017_05_05_02_35_09_861.jpg)
 
 
 
